@@ -29,7 +29,7 @@ export class MqService {
         })
     }
 
-    static connectOnce(url: string): Promise<MqService> {
+    public static connectOnce(url: string): Promise<MqService> {
         return new Promise((resolve, reject) => {
             amqp.connect(url, (error, connection) => {
                 if(error) reject(error)
@@ -41,7 +41,7 @@ export class MqService {
         })
     }
 
-    static connect(url: string, maxNumOfTries = 10): Promise<MqService> {
+    public static connect(url: string, maxNumOfTries = 10): Promise<MqService> {
         return tryFunction(() => this.connectOnce(url), maxNumOfTries)
     }
 }

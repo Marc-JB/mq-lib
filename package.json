@@ -12,8 +12,16 @@
     "engines": {
         "node": ">= 12.10.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Marc-JB/mq-lib.git"
+    },
     "author": "Marc",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Marc-JB/mq-lib/issues"
+    },
+    "homepage": "https://github.com/Marc-JB/mq-lib#readme",
     "dependencies": {
         "amqplib": "^0.5.6"
     },
