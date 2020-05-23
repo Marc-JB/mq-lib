@@ -1,11 +1,11 @@
 {
     "name": "@peregrine/mq-lib",
-    "version": "0.1.4",
+    "private": false,
+    "version": "0.1.6",
     "description": "Experimental mq lib for node",
     "main": "./build/main/index.js",
     "typings": "./build/main/index.d.ts",
     "type": "commonjs",
-    "private": false,
     "scripts": {
         "build": "tsc -b ./src/main/",
         "lint": "eslint --ignore-path .gitignore .",
