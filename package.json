@@ -1,6 +1,6 @@
 {
     "name": "@peregrine/mq-lib",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Experimental mq lib for node",
     "main": "./build/main/index.js",
     "typings": "./build/main/index.d.ts",
@@ -13,7 +13,7 @@
     },
     "engineStrict": true,
     "engines": {
-        "node": ">= 10.18.1"
+        "node": ">= 10.9.0"
     },
     "repository": {
         "type": "git",
