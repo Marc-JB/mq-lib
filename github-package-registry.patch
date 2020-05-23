@@ -1,0 +1,7 @@
+--- a/package.json
++++ b/package.json
+@@ -1,3 +1,3 @@
+ {
+-    "name": "@peregrine/mq-lib",
++    "name": "@marc-jb/mq-lib",
+     "private": false,
