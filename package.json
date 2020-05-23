@@ -6,7 +6,8 @@
     "typings": "./build/main/index.d.ts",
     "type": "commonjs",
     "scripts": {
-        "build": "tsc -b ./src/main/"
+        "build": "tsc -b ./src/main/",
+        "lint": "eslint --ignore-path .gitignore ."
     },
     "engineStrict": true,
     "engines": {
@@ -28,6 +29,9 @@
     "devDependencies": {
         "@types/amqplib": "^0.5.13",
         "@types/node": "^14.0.4",
+        "@typescript-eslint/eslint-plugin": "^3.0.0",
+        "@typescript-eslint/parser": "^3.0.0",
+        "eslint": "^7.0.0",
         "typescript": "^3.9.3"
     }
 }
