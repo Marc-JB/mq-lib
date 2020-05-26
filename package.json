@@ -1,7 +1,7 @@
 {
     "name": "@peregrine/mq-lib",
     "private": false,
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Experimental mq lib for node",
     "type": "commonjs",
     "main": "./build/main/index.js",
