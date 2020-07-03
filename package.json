@@ -1,7 +1,7 @@
 {
-    "name": "@peregrine/mq-lib",
+    "name": "mq-lib",
     "private": false,
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Experimental mq lib for node",
     "type": "commonjs",
     "main": "./build/main/index.js",
@@ -9,7 +9,8 @@
     "scripts": {
         "build": "tsc -b ./src/main/",
         "lint": "eslint --ignore-path .gitignore .",
-        "test": "tsc -b ./src/test/ && mocha --recursive --exit ./build/test/"
+        "test": "tsc -b ./src/test/ && mocha --recursive --exit ./build/test/",
+        "multi-install": "npm install --package-lock-only && yarn install"
     },
     "engineStrict": true,
     "engines": {
