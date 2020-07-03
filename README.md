@@ -1,4 +1,11 @@
-# MQ-lib [![Node.js CI](https://github.com/Marc-JB/mq-lib/workflows/Node.js%20CI/badge.svg)](https://github.com/Marc-JB/mq-lib/actions?query=workflow%3A%22Node.js+CI%22) [![license](https://badgen.net/github/license/Marc-JB/mq-lib?color=cyan)](https://github.com/Marc-JB/mq-lib/blob/master/LICENSE) [![npm](https://badgen.net/badge/icon/npm?icon=npm&color=cyan&label)](https://www.npmjs.com/package/@peregrine/mq-lib) ![node version](https://badgen.net/npm/node/@peregrine/mq-lib) ![types](https://badgen.net/npm/types/@peregrine/mq-lib?icon=typescript)
+[![Node.js linter & tests](https://github.com/Marc-JB/mq-lib/workflows/Node.js%20linter%20&%20tests/badge.svg)](https://github.com/Marc-JB/mq-lib/actions)
+[![Node.js deployment](https://github.com/Marc-JB/mq-lib/workflows/Node.js%20deployment/badge.svg)](https://github.com/Marc-JB/mq-lib/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Marc-JB_mq-lib&metric=alert_status)](https://sonarcloud.io/dashboard?id=Marc-JB_mq-lib)
+[![license](https://badgen.net/github/license/Marc-JB/mq-lib?color=cyan)](https://github.com/Marc-JB/mq-lib/blob/main/LICENSE)
+[![npm](https://badgen.net/badge/icon/npm?icon=npm&color=cyan&label)](https://www.npmjs.com/package/@peregrine/mq-lib)
+![node version](https://badgen.net/npm/node/@peregrine/mq-lib)
+![types](https://badgen.net/npm/types/@peregrine/mq-lib?icon=typescript)
+# MQ-lib
 Very simple and minimal amqplib wrapper.
 
 ## Methods - MqService class
