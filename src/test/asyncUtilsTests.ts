@@ -1,4 +1,4 @@
-import { suite, test, expect } from "./utils"
+import { suite, test, expect } from "@peregrine/test-with-decorators"
 import { tryFunction } from "../main/asyncUtils"
 
 @suite
