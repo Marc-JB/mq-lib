@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@peregrine/test-with-decorators@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@peregrine/test-with-decorators/-/test-with-decorators-0.1.4.tgz#de3276a94c320bb69194c3789c3a781f9e1be9bf"
-  integrity sha512-0z3vDWIoOyTAn6E4Tipfx7Ygl6ytA+aYkYpFt4xluQUWLDlB7whSF9z6AQhBx1RUZa1On+rCkxU0GV2PUNL9yw==
+"@peregrine/test-with-decorators@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@peregrine/test-with-decorators/-/test-with-decorators-0.1.5.tgz#2d3ae70021c3f7e4764c35555095aa82bcdc17b0"
+  integrity sha512-2WMA7r7ORI5G3x9FmkVnzUw9rE5qEeVPy03bsake51zCKCJmPSPxbKeN6ADKL21zOeNcZCJ6vkda7O9PIkTMSQ==
   dependencies:
     chai "^4.2.0"
     chai-as-promised "^7.1.1"
@@ -509,7 +509,7 @@ eslint-visitor-keys@^1.1.0, eslint-visitor-keys@^1.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
   integrity sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==
 
-eslint@^7.3.1:
+eslint@^7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.4.0.tgz#4e35a2697e6c1972f9d6ef2b690ad319f80f206f"
   integrity sha512-gU+lxhlPHu45H3JkEGgYhWhkR9wLHHEXC9FbWFnTlEkbKyZKWgWRLgf61E8zWmBuI6g5xKBph9ltg3NtZMVF8g==

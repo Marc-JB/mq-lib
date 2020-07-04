@@ -30,12 +30,12 @@
         "amqplib": "^0.5.6"
     },
     "devDependencies": {
-        "@peregrine/test-with-decorators": "^0.1.4",
+        "@peregrine/test-with-decorators": "^0.1.5",
         "@types/amqplib": "^0.5.13",
         "@types/node": "^14.0.14",
         "@typescript-eslint/eslint-plugin": "^3.5.0",
         "@typescript-eslint/parser": "^3.5.0",
-        "eslint": "^7.3.1",
+        "eslint": "^7.4.0",
         "typescript": "^3.9.6"
     }
 }
